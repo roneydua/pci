@@ -3,112 +3,80 @@
  <img width=200px height=200px src=./ufabc-logo.png alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Placa controladora para quadricópteros</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/roneydua/pci/issues)
+<!-- [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls) -->
+<!-- [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE) -->
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Projeto de placa controladora de código aberto para controle de VANTs.
     <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 Indice
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+
+## 🧐 Sobre <a name = "sobre"></a>
 
 Write about 1-2 paragraphs describing the purpose of your project.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+<!-- These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system. -->
 
-### Prerequisites
+### Pre-requisitos
 
-What things you need to install the software and how to install them.
+<!-- What things you need to install the software and how to install them. -->
+O projeto é desenvolvido com os softwares de código aberto FreeCAD e do KiCAD nas versões:
+- FreeCAD
+  ```
+  OS: Debian GNU/Linux 11 (bullseye) (GNOME/gnome-xorg)
+  Word size of FreeCAD: 64-bit
+  Version: 0.20.25943 (Git) AppImage
+  Build type: Release
+  Branch: master
+  Hash: a65464b722a846bd2999aa2fecdff1132b15b297
+  Python version: 3.9.7
+  Qt version: 5.12.9
+  Coin version: 4.0.0
+  OCC version: 7.5.2
+  Locale: Portuguese/Brazil (pt_BR)```
 
+- KiCad
+  ```
+  Application: KiCad
+  Version: 5.1.10, release build
+  Libraries:
+  wxWidgets 3.0.5
+  libcurl/7.71.1-DEV GnuTLS/3.6.15 (NSS/3.49.2) (OpenSSL/1.1.1k) zlib/1.2.11 libidn2/2.3.0
+  Platform: Linux 5.10.0-9-amd64 x86_64, 64 bit, Little endian, wxGTK
+  Build Info:
+    wxWidgets: 3.0.5 (wchar_t,wx containers,compatible with 2.8) GTK+ 3.24
+    Boost: 1.77.0
+    OpenCASCADE Technology: 7.5.1
+    Curl: 7.71.1-DEV
+    Compiler: GCC 10.2.0 with C++ ABI 1014
+  ```
+
+## 🎈 Utilização <a name="usage"></a>
+
+Para utilizar basta clonar o repositório com o comando
 ```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+  git clone https://github.com/roneydua/pci.git
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## ✍️ Autor <a name = "authors"></a>
 
-Add notes about how to use the system.
+- [@roneydua](https://roneydua.github.io/) - Site pessoal
 
-## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+<!-- ## 🎉 Agradecimentos <a name = "acknowledgement"></a> -->
 
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
