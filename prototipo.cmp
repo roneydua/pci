@@ -1,0 +1,179 @@
+Cmp-Mod V01 Created by PcbNew   date = seg 26 jul 2021 14:20:47 -03
+
+BeginCmp
+TimeStamp = 60FEF9D2
+Path = /61014BDC
+Reference = JP1;
+ValeurCmp = SolderJumper_2_Bridged;
+IdModule  = prototipo:wire_93mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 610AC15E
+Path = /60FF099D
+Reference = JP2;
+ValeurCmp = SolderJumper_2_Bridged;
+IdModule  = prototipo:wire_63mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 61E71FD6
+Path = /60FE9AF7
+Reference = RotM4;
+ValeurCmp = RotM4;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61E71FBF
+Path = /60FE9C28
+Reference = RotM3;
+ValeurCmp = RotM3;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61E71FA8
+Path = /60FE9D5C
+Reference = RotM2;
+ValeurCmp = RotM2;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61E71F91
+Path = /60FE9D63
+Reference = RotM1;
+ValeurCmp = RotM1;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 61E69D06
+Path = /60FF41D4
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 61E69CF4
+Path = /60FF35DF
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 61E69CE2
+Path = /60FF3BA5
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 61E69CD0
+Path = /60FF219D
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 61CF4378
+Path = /60FDF0C4
+Reference = U4;
+ValeurCmp = posmec;
+IdModule  = prototipo:logo_posmec;
+EndCmp
+
+BeginCmp
+TimeStamp = 6143CD16
+Path = /60FDEC68
+Reference = U3;
+ValeurCmp = logo_ufabc;
+IdModule  = prototipo:logo_ufabc;
+EndCmp
+
+BeginCmp
+TimeStamp = 60FD9FDE
+Path = /605A7AB9
+Reference = U1;
+ValeurCmp = Lolin32;
+IdModule  = ESP32-Footprints:esp32_lolin32;
+EndCmp
+
+BeginCmp
+TimeStamp = 605BAD5C
+Path = /604BDB20
+Reference = GPS1;
+ValeurCmp = GPS;
+IdModule  = Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 605ADCC4
+Path = /605D7ACA
+Reference = Power1;
+ValeurCmp = Power;
+IdModule  = Connectors_JST:JST_EH_B02B-EH-A_02x2.50mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 60FB9FA4
+Path = /605AAD17
+Reference = Controle1;
+ValeurCmp = Controle;
+IdModule  = Connectors_JST:JST_EH_B04B-EH-A_04x2.50mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 60FB5C15
+Path = /60FBAC79
+Reference = U2;
+ValeurCmp = sistema_coordenadas;
+IdModule  = prototipo:sistema_cordenadas;
+EndCmp
+
+BeginCmp
+TimeStamp = 60FB9325
+Path = /605B5361
+Reference = M2;
+ValeurCmp = M2;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 60FBB66C
+Path = /605B3C0D
+Reference = M1;
+ValeurCmp = M1;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 605BB2B0
+Path = /6064C8AE
+Reference = MPU9250;
+ValeurCmp = MPU9250;
+IdModule  = personal_foot_print:mpu9250;
+EndCmp
+
+BeginCmp
+TimeStamp = 605AC9BA
+Path = /605B6C39
+Reference = M3;
+ValeurCmp = M3;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 605AC98C
+Path = /605B6EF8
+Reference = M4;
+ValeurCmp = M4;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+EndListe
